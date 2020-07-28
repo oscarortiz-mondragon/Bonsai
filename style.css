@@ -1,0 +1,49 @@
+
+body{
+    background-color: #28CD62
+}
+/* NAV */
+nav{
+    display: flex;
+    
+    }
+    nav a{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        text-align: center;
+        background-color: aqua;
+        text-decoration: none;
+        border: solid #CD2893 5px;
+    }
+    /* GRID */
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:
+    "Heading Heading Heading"
+    "left-bar image ."
+    "left-bar image ."
+    "left-bar image .";
+    height: 1000px;
+    width: 1000px;
+}
+
+#Heading{
+    display: grid;
+    grid-area: 1/1;
+}
+#Left-bar{
+    display: grid;
+   grid-area:left-bar ;
+   
+}
+img{
+     display: grid;
+   grid-area: "image";  
+   width: 100%;
+   height: 100%;
+   -o-object-fit: cover;
+      object-fit: cover;
+}
