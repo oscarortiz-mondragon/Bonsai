@@ -1,0 +1,56 @@
+
+body{
+    background-color: #28CD62
+}
+nav{
+    display: flex;
+height: 40px;
+    }
+ nav a{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        text-align: center;
+        background-color: pink;
+        text-decoration: none;
+        border: solid #CD2893 5px;
+       align-items: center;
+       
+    }
+    nav a:hover{
+        background-color: palevioletred;
+    }
+#container2{
+    display: flex;
+ 
+}
+#flex-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: pink;
+    opacity: 0.8;
+}
+
+
+
+#flex-right{
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    background: pink;
+  
+}
+h3{
+    text-align: center;
+}
+.Bonsai:hover{
+    background-color: palevioletred;
+}
+img{
+    display: flex;
+  margin: auto;
+    height: 500px;
+    width: 500px;
+    opacity: 1.0;
+}
