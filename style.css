@@ -22,7 +22,7 @@ height: 40px;
     nav a:hover{
         background-color: palevioletred;
     }
-                     /* GRID */
+ /* GRID */
 #container > div {
  border: solid pink 10px;
  background-color: pink;
@@ -47,14 +47,13 @@ height: 40px;
   text-align: center;
     grid-area: Heading;
     font-family: fantasy;
-
-    
 }
 #Left-bar{
     display: grid;
     grid-area: left-bar;
     text-align: left;
     font-weight: 30px;
+    font-size: 10px;
     font-family: fantasy;
 }
 
@@ -63,6 +62,7 @@ height: 40px;
     grid-area: right-bar;
     text-align: right;
     font-weight: 30px;
+    font-size: 10px;
     font-family: fantasy;
 }
 #grid-image{
